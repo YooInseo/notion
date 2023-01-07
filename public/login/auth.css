@@ -1,0 +1,67 @@
+.container{
+    padding-top: 5%;
+}
+.form{
+    /* position: absolute; */
+    text-align: center;
+    width: 320px;
+    margin:auto;
+}
+.container > p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.form > p{
+    font-size: 12px;
+    text-align: left;   
+}
+
+.form > h1{
+    font-size: 50px;
+    margin-bottom: 24px
+}  
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid var(--color-gray-300); 
+    color: rgb(17, 17, 17);
+    width: 320px;
+    height: 36px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+ 
+}
+.continue{
+    background-color: rgba(255, 148, 148, 0.289);
+    border: 1px solid var(--color-red-400);
+    color: var(--color-red-500);
+}
+.continue:hover{
+    background-color: rgba(254, 214, 214, 0.797);
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 214, 214, 0.424);
+    border: none;
+}
+.selection{
+    font-size: 14px;
+    color: gray;
+ 
+}
+
+.user-select{
+    display: inline-block;
+    text-decoration: underline;
+    margin: 0px;
+    cursor: pointer;
+}

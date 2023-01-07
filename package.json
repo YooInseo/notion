@@ -1,0 +1,31 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YooInseo/notion.git"
+  },
+  "keywords": [
+    "notion"
+  ],
+  "author": "SkyExcel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YooInseo/notion/issues"
+  },
+  "homepage": "https://github.com/YooInseo/notion#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.8.0"
+  }
+}

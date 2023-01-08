@@ -1,0 +1,11 @@
+@keyframes edit-bar{
+    50%{
+        opacity: 0;
+    }
+}
+
+.text-edit{
+    color: var(--color-gray-300);
+    font-size: 40px;
+    /* animation: text-edit 1s step-end infinite; */
+}
